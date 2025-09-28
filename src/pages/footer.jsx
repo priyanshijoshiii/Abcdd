@@ -5,14 +5,14 @@ function Footer(){
         <footer className="bg-gray-800 text-white py-8 px-6">
             <div className="max-w-7xl mx-auto">
                 {/* Main Footer Content */}
-                <div className="flex justify-between items-start mb-6">
+                <div className="flex flex-col md:flex-row justify-between items-start mb-6 gap-6">
                     {/* Title Section */}
                     <div className="text-left">
                         <h2 className="text-4xl font-bold mb-4">Student Email Allotement</h2>
                     </div>
                     
                     {/* Follow Us Section */}
-                    <div className="text-right">
+                    <div className="text-left md:text-right">
                         <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
                         <div className="space-y-2">
                             <a 

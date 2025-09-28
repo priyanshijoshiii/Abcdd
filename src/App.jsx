@@ -23,8 +23,8 @@ function App() {
       <Routes>
               <Route path="/" element={<Home/>}></Route>
               <Route path="/student/dashboard" element={<Dashboard/>}></Route>
-              <Route path="admin/studentinfo" element={<StudentInfo/>}></Route>  
-              <Route path="admin/createform" element={<CreateForm/>}></Route>
+              <Route path="/admin/studentinfo" element={<StudentInfo/>}></Route>  
+              <Route path="/admin/createform" element={<CreateForm/>}></Route>
               <Route path="/superadmin" element={<SuperAdmin/>}></Route>
               <Route path="/superadmin/viewadmin" element={<CreateAdmin/>}></Route>
               <Route path="/*" element={<Error/>}></Route>        
